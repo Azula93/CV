@@ -59,9 +59,18 @@ picture img {
 }
 
 .fa-square-github {
+  color: #1a1e22;
   font-size: 50px;
 }
 .fa-square-github:hover {
+  opacity: 0.5;
+}
+
+.fa-linkedin {
+  color: #007ab5;
+  font-size: 50px;
+}
+.fa-linkedin:hover {
   opacity: 0.5;
 }
 

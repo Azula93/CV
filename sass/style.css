@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  background: linear-gradient(#5D69BE, #C89FEB) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card-container {
+  margin: 18.75rem auto 3.125rem;
+  width: 43rem;
+  height: 22.5rem;
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+picture img {
+  width: 15rem;
+  height: 100%;
+}
+
+.personal-data {
+  background: white;
+  width: 100%;
+}
+.personal-data__name {
+  font-size: 38px;
+  margin-left: 10px;
+  margin-bottom: 14px;
+}
+.personal-data__profesion {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.personal-data__description {
+  margin-left: 0.64rem;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+.personal-data__RRSS {
+  text-align: center;
+  height: 40px;
+}
+.personal-data__icon-netlify {
+  text-align: center;
+  height: 40px;
+  margin-left: 40px;
+}
+.personal-data__icon-netlify:hover {
+  opacity: 0.5;
+}
+
+.fa-square-github {
+  font-size: 50px;
+}
+.fa-square-github:hover {
+  opacity: 0.5;
+}
+
+.button-email {
+  margin: 10px;
+  display: flex;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  padding: 10px;
+  outline: 1px solid rgb(23, 23, 23);
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+.email__text-button {
+  margin-left: 10px;
+}
+
+.button-email:is(:hover, :focus) {
+  cursor: pointer;
+  background-color: rgb(23, 23, 23);
+  outline: 3px solid rgb(23, 23, 23);
+  outline-offset: 2px;
+}
+
+.email-icon {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.fa-envelope {
+  font-size: 20px;
+}
+
+@media (min-width: 620px) {
+  .card-container {
+    margin: 175px auto 75px;
+    width: 21.5rem;
+    height: 12.5rem;
+  }
+}
+@media (min-width: 621px) {
+  .card-container {
+    width: 43rem;
+    height: 22.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
